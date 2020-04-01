@@ -1,0 +1,87 @@
+[id$=_container] {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    transition: left 1s ease-in-out;
+}
+
+[id$=_pre], 
+[id$=_next] {
+    position: absolute;
+    top: 40%;
+    width: 5%;
+    height: 20%;
+    color: purple;
+    opacity: .8;
+    text-align: center;
+    line-height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+[id$=_pre] {
+    left: 5%;
+    color:purple;
+    opacity: .6;
+
+}
+
+[id$=_next] {
+    right: 5%;
+    color:purple;
+    opacity: .6;
+
+}
+
+[id$=_page] {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    margin: 2% 0;
+    color: black;
+    text-align: center;
+    opacity: .8;
+    z-index: 1;
+}
+
+[class$=pagination] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+    background-color: purple;
+    opacity: .6;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+[id$=_active] {
+    opacity: 1;
+}
+
+[class$=_img-item] {
+    float: left;
+    height: 100%;
+}
+
+[class$=_img-item] img {
+    width: 100%;
+    height: 100%;
+}
+
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #ec0016;
+	top: 175px;
+	line-height: 50px;
+	background: white;
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 6;
+}
